@@ -1,5 +1,5 @@
 /*Between 320 and 520- style this way!*/
-@media screen and (max-width: 520px) and (min-width: 320px) {
+@media screen and (min-width: 320px) {
   body {
     background-color: #000000;
     background-image: url("../images/binding-dark.png");
@@ -219,8 +219,7 @@
 
 
 
-/*Between 800 and 1300: style this way!*/
-@media screen and (max-width: 830px) and (min-width:521px) {
+@media screen and (min-width: 521px) {
   body {
     background-color: #ffffff;
     background-image: url("../images/clean-gray-paper.png");
@@ -232,7 +231,6 @@
     position: relative;
   }
   .moving {
-    background: #000;
     border: 2px solid #000;
     /*url("../images/clean-gray-paper.png");*/
     margin: 0 auto;
@@ -410,11 +408,13 @@
   }
 
   .nav-sink {
-    background: #000;
+    background-color: #000;
+    background-image: url("../images/binding-dark.png");
     border: 2px solid #000;
     top: 0;
     color: #000;
     float: left;
+    max-height: 40px;
     position: fixed;
     overflow: hidden;
     width: 100%;
@@ -438,6 +438,7 @@
   .footer {
     background-color: #000;
     color: #ffcd29;
+    display: block;
     font-weight: 700;
     overflow: hidden;
     width: 100%;
@@ -464,15 +465,18 @@
 }
 
 
-/*Between 800 and 1300: style this way!*/
-@media screen and (max-width: 1800px) and (min-width:831px) {
+/*Between 831 and up!*/
+@media screen and (min-width:831px) {
   body {
     background-color: #ffffff;
     background-image: url("../images/clean-gray-paper.png");
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
   }
+
+
   .container {
+    margin: 0;
     overflow: hidden;
     position: relative;
   }
@@ -664,9 +668,10 @@
   }
 
   .nav-sink {
-    background: #000;
+    background-color: #000;
+    background-image: url('../images/binding-dark.png');
     border: 2px solid #000;
-    top: 26%;
+    top: 29%;
     color: #000;
     float: left;
     margin-bottom: 5%;
@@ -676,7 +681,8 @@
   }
 
   .nav-er {
-    color: #ffcd29;
+    border: none;
+    color: #000;
     float: left;
     font-size: .9rem;
     font-weight: 700;
@@ -690,6 +696,7 @@
 
   .footer {
     background-color: #000;
+    background-image: url('../images/binding-dark.png');
     color: #ffcd29;
     font-weight: 700;
     overflow: hidden;
