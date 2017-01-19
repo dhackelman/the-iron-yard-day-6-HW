@@ -179,7 +179,8 @@
       font-size: 1rem;
   }
   .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-      background: #4691A4;
+      background: #000;
+      color: #ffcd29;
       box-shadow:none;
       -moz-box-shadow:none;
       -webkit-box-shadow:none;
@@ -398,7 +399,8 @@
       font-size: 1rem;
   }
   .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-      background: #4691A4;
+      background: #000;
+      color: #fff;
       box-shadow:none;
       -moz-box-shadow:none;
       -webkit-box-shadow:none;
@@ -582,7 +584,7 @@
 
   .contact {
     background: transparent;
-    margin: 2% auto 30% auto;
+    margin: 2% auto 2% auto;
     text-align: center;
     width: 90%;
   }
@@ -640,7 +642,7 @@
       width: 90%;
   }
   .form-style-1 .field-textarea{
-      height: 100px;
+      height: 300px;
   }
   .form-style-1 input[type=submit], .form-style-1 input[type=button]{
       background: #ffcd29;
@@ -651,7 +653,8 @@
       font-size: 1rem;
   }
   .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-      background: #4691A4;
+      background: #000;
+      color: #fff;
       box-shadow:none;
       -moz-box-shadow:none;
       -webkit-box-shadow:none;
